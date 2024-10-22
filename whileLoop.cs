@@ -1,3 +1,5 @@
+// The while loop executes as long as the condition indicated in the while loop remauns to be true
+
 using System;
 
 namespace myApplication
@@ -15,3 +17,4 @@ namespace myApplication
             }
         }
     }
+
