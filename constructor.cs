@@ -21,3 +21,26 @@ namespace MyApplication
     }
   }
 }
+
+// construtcor that takes parameters
+
+//filename: Car.cs
+using System;
+
+namespace MyApplication
+{
+  class Car
+  {
+   public string model;
+   // contrctor that takes parameters
+   public Car(string modelName)
+   	{
+    model = modelName;
+    }
+    static void Main()
+    {
+    Car Ford = new Car("Mustang");
+    Console.WriteLine(Ford.model);
+    }
+  }
+}
