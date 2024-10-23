@@ -4,6 +4,6 @@ namespace AnApplication
 {
     class Car
     {
-        public string color = "Green"
+        public string color = "Green";
     }
 }
