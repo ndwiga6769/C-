@@ -1,42 +1,43 @@
 using System;
+using MyApplication;
 
 namespace MyApplication
 {
-  class Animal  // Base class (parent) 
-  {
-    public virtual void animalSound()
-    {
-      Console.WriteLine("The animal makes a sound");
-    }
-  }
+        class Animal
+        {
+            pubublic virtual void animalSound()
+            {
+                Console.WriteLine("This is an animals Sound");
+            }
+        }
 
-  class Pig : Animal  // Derived class (child) 
-  {
-    public override void animalSound()
-    {
-      Console.WriteLine("The pig says: wee wee");
-    }
-  }
+        class Pig : Animal
+        {
+            public override void animalSound()
+            {
+                Console.WriteLine("The Pig says: wee wee")
+            }
+        }
 
-  class Dog : Animal  // Derived class (child) 
-  {
-    public override void animalSound()
-    {
-      Console.WriteLine("The dog says: bow wow");
-    }
-  }
+        class Dog : Animal
+        {
+            public override void animalSound
+            {
+                Console.WriteLine("The dog barks: Wow Wow")
+            }
+        }
 
-  class Program
-  {
-    static void Main(string[] args)
-    {
-      Animal myAnimal = new Animal();  // Create a Animal object
-      Animal myPig = new Pig();  // Create a Pig object
-      Animal myDog = new Dog();  // Create a Dog object
-      
-      myAnimal.animalSound();
-      myPig.animalSound();
-      myDog.animalSound();
-    }
-  }
+        class Program
+        {
+            public void Main(string[] args)
+            {
+                Animal myAnimal = new Animal();
+                Animal myPig = new Pig();
+                Animal myDog = new Dog();
+
+                myAnimal.animalSound();
+                myPig.animalSound();
+                myDog.animalSound();
+            }
+        }
 }
