@@ -52,3 +52,40 @@ static void Main(string[] args)
   }
 }
 }
+
+// switch case using enum
+
+using System;
+
+namespace myApplication
+{
+	class myProgram
+	{
+      enum Level
+      {
+      Low,
+      Medium,
+      High
+      }
+      
+   static void Main(string[] args)
+   		{
+        Level myObj = Level.Medium;
+        switch(myObj)
+        {
+        case Level.Low:
+        Console.WriteLine("This is a Low Level");
+        break;
+        
+        case Level.Medium:
+        Console.WriteLine("This is a medium level");
+        break;
+        
+        case Level.High:
+        Console.WriteLine("This is a High level");
+        break;
+        
+       } 
+        }
+    }
+}
