@@ -18,3 +18,37 @@ class Program
     }
     }
 }
+
+// my program
+
+using System;
+
+namespace myApplication
+{
+class Program
+	{
+    	enum Months
+        {
+          January,
+          February,
+          March,
+          April,
+          May,
+          June,
+          July,
+          August,
+          September,
+          October,
+          November,
+          December
+        }
+    
+    
+
+static void Main(string[] args)
+  {
+  int myMonth = (int)Months.December;
+  Console.WriteLine(myMonth);
+  }
+}
+}
